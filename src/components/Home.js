@@ -7,18 +7,20 @@ import { Link } from "react-router-dom";
 class Home extends Component {
   render() {
     return (
-    <div>
-        <h1> Welcome to Bulma Course Practice </h1>
-        <Link to="/basic-bulma">
-        Basic Bulma
-        </Link>
-        {/* <Link to="/pads" onClick={this.closeNav}>
-        
-        </Link>
-        <Link to="/pads" onClick={this.closeNav}>
-        
-        </Link> */}
-    </div>
+      <div>
+        <div className = "hero-body">
+          <div className = "container has-text-centered">
+            <h1 className="is-large"> Welcome to Bulma Course Practice </h1>
+          </div>
+        </div>
+        <section className = "section is-paddingless">
+          <div className = "container">
+            <Link to="/basic-bulma"> Basic Bulma </Link> <br/>
+            <Link to="/second-app"> Second App </Link> <br/>
+            <Link to="/third-app"> Third App </Link>
+          </div>
+        </section>
+      </div>
     );
   }
 }

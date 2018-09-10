@@ -6,16 +6,28 @@ import { Link } from "react-router-dom";
 
 
 class BasicBulma extends Component {
+
   render() {
     return (
-    <div>
-      <figure className = "image level-right">
+      <div className="item-inline">
+          <section className="section is-paddingless">
+        <div className="container">
+          <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+              <li><Link to="/">Home</Link></li>
+              <li class="is-active"><Link to="/second-app" aria-current="page">Second App</Link></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      {/* <figure className = "image level-right">
         <span className="icon is-large">
           <Link className="has-text-black" to='/'>
             <i class="fas fa-2x fa-home"></i>
           </Link>
         </span>
-      </figure>
+      </figure> */}
 
       <section className = "hero">
         <div className = "hero-body">

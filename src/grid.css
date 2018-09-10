@@ -1,0 +1,42 @@
+#grid{
+  width: 768px;
+  display: grid;
+  grid-template-areas: 
+    "a a a a"
+    "b c d e";
+  grid-row-gap: 1rem;
+
+}
+
+.hero-foot{
+  padding: 2rem;
+}
+
+#a { grid-area: a;}
+#b { grid-area: b;}
+#c { grid-area: c;}
+#d { grid-area: d;}
+#e { grid-area: e;}
+
+@media (max-width: 512px){
+  #grid {
+    grid-template-areas: 
+    "a a a"
+    "b c d"
+    "e e e"
+  }
+}
+
+.left-borader{
+  border-left: 1px solid gray;
+}
+
+.button{
+  width: 100%; 
+  border: 0.15em solid white;
+}
+
+.fixed-height{
+  width: 0.75em; 
+  height: 0.75em;
+}

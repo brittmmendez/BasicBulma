@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import BasicBulma from './Components/BasicBulma'
 // import "./debug.css"; 
 import "./App.css";
 import Routes from "./Routes";
