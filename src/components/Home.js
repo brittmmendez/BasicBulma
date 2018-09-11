@@ -17,7 +17,10 @@ class Home extends Component {
           <div className = "container">
             <Link to="/basic-bulma"> Basic Bulma </Link> <br/>
             <Link to="/second-app"> Second App </Link> <br/>
-            <Link to="/third-app"> Third App </Link>
+            <Link to="/third-app"> Third App </Link> <br/>
+            <Link to="/youtube-follow-along"> YouTube Follow Along </Link> <br/>
+            <Link to="/form"> Form </Link>
+
           </div>
         </section>
       </div>

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import "./App.css";
 import Routes from "./Routes";
 import { BrowserRouter as Router} from "react-router-dom"; 
+import Form from "./components/Form";
 
 
 class App extends Component {
